@@ -1,0 +1,35 @@
+
+body{
+    height: 100vh;
+}
+.main{
+    position: relative;
+    display: block;
+    color: white;
+    background-color: transparent;
+    margin-left: 10vw;
+    font-size: 1vw;
+    height: 70vh;
+    top: -50vw;
+}
+
+.submain{
+    display: flex;
+    gap: 5vw;
+    margin-left: 2.5vw;
+}
+
+.main-section3{
+    position: relative;
+    top: -160vh;
+    left: 78vw;
+}
+
+a:hover{
+    transform: scale(1.25);
+    font-weight: bolder;
+    transition: all 0.5s;
+}
+footer{
+    margin-left: 5vw;
+}

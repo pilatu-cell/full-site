@@ -1,0 +1,172 @@
+
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+        height:100vh;
+        width: fit-content;
+        color: white;
+        background-color: #351904;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    display: flex;
+    margin-left: 2.5vw;
+    width: fit-content;
+    min-width: fit-content;
+}
+.header img{
+    width: 5vw;
+    height: 5vw;
+}
+.header p{
+    font-size: 2.5vw;
+    font-weight: bolder;
+    position: relative;
+    top: -2vw;
+}
+.header div{
+    margin-left: 55vw;
+    font-size: 2.5vw;
+    font-weight: bolder;
+    display: flex;
+}
+.offer{
+    height: 9vw;
+}
+.offer img{
+    max-height: fit-content;
+    width: 30vw;
+    height: 10vw;
+    position: relative;
+    top: -3.0vw;
+    background-color: transparent;
+}
+.main{
+    display: flex;
+    min-height: fit-content;
+    min-height: fit-content;
+    width: 80vw;
+    height: fit-content;
+    position: relative;
+    margin-left: 2.5vw;
+    top: -2.5vw;
+}
+.mainAd{
+    position: relative;
+    top: 32.5vw;
+    width: 7.5vw;
+    height: 7.5vw;
+    background-color: transparent;
+}
+.mainSection{
+    background-color: #d7ccc8;
+    border-radius: 2.5vw;
+    color: #17224d;
+    width: 30vw;
+    height: 35vw;
+    min-height: fit-content;
+    min-width: fit-content;
+    padding: 2.5vw;
+    font-size: 2.0vw;
+}
+
+.backgroundImgContainer{
+    position: relative;
+    left: -50vw;
+    top: 2vw;
+}
+.backgroundImgContainer img{
+    width: 20vw;
+    height: 18.5vw;
+    opacity: 0.5;
+}
+.backgroundImgContainer div{
+    display: flex;
+    gap: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+.img1{
+    border-top-left-radius: 100%;
+}
+.img2{
+    border-top-right-radius: 100%;
+}
+.img3{
+    border-bottom-left-radius: 100%;
+}
+.img4{
+    border-bottom-right-radius: 100%;
+}
+
+
+.nav{
+    position: relative;
+    left: -27.5vw;
+    background-color: #d7ccc8;
+    padding-bottom: 3.5vw;
+    padding-left: 2.5vw;
+    padding-right: 6.75vw;
+    border-top-left-radius: 2.5vw;
+    border-bottom-left-radius: 2.5vw;
+    height: fit-content;
+   min-height: fit-content;
+}
+.nav div{
+    display: flex;
+    width: fit-content;
+
+}
+.nav p{
+    position: relative;
+    top: 2vw;
+    margin-left: 1vw;
+    color: black;
+    width: fit-content;
+    font-size: 1.5vw;
+}
+.nav img{
+    width: 5vw;
+    height: 5vw;
+    margin-top: 2vw;
+}
+
+footer{
+    display: flex;
+    margin-left:5vw;
+}
+footer img{
+    width: 4vw;
+    height: 4vw;
+    margin-left: 2.5vw;
+    background-color: white;
+    border-radius: 100%;
+}
+footer p{
+    position: relative;
+    font-size: 1vw;
+}
+footer button{
+    background-color: #d7ccc8;
+    color: #17224d;
+    margin-left: 15vw;
+    min-width: fit-content;
+    min-height: fit-content;
+    height: 4vw;
+    width: 10vw;
+    font-size: 1.75vw;
+    font-weight: bolder;
+    padding-top: 0.5vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    padding-bottom: 0.5vw;
+    border-radius: 3vw;
+}
+#explore1{
+    margin-left: 5vw;
+}
+@media(max-width:768px){
+    body{
+        overflow: hidden;
+        height: 80vh;
+    }
+}

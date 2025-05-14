@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<link rel="stylesheet" href="login.css">
+<body>
+    <div class="header">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact us</a>
+        <div class="logo-container">
+            <marquee behavior="" direction="left">Kyu Student Mess</marquee>
+            <img class="logo" src="images/kyu_logo-removebg-preview (1).png" alt="">
+        </div>
+    </div>
+
+    <section class="section">
+            <form id="signupForm" name="myForm" action="/signup" method="post">
+                <div id="errorContainer" style="color: red; margin-bottom:10px;"></div>
+                <h1>SIGNUP FOR AN <br>ACCOUNT</h1>
+                <label for="">Username</label><br>
+                <input type="text" name="username" id="username" placeholder="Username" required><br>
+                <label for="">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="abcd@kyu.ac.ke" required><br>
+                <label for="">Password(must contain 8<br>characters)</label><br>
+                <input type="password" name="password" id="password" placeholder="Password" required><br>
+                <button type="submit" >submit</button>
+            </form>
+            <div class="container">
+                <div class="img1-container">
+                    <img class="img1" src="images/pgi1.jfif" alt="">
+                    <img class="img2" src="images/pgi2.jfif" alt="">
+                </div>
+                <div class="img2-container">
+                    <img class="img3" src="images/pg13.jfif" alt="">
+                    <img class="img4" src="images/pgi4.jfif" alt="">
+                </div>
+            </div>
+    </section><br>
+    <footer class="footer">
+            <img class="viber" src="images/viber.png" alt="">
+            <p class="p"><b>Phone</b><br>0710745780</p>
+            <img class="email" src="images/email.png" alt="">
+            <p class="p"><b>Email</b><br>kyu254@gmail.com</p>
+            <img class="web" src="images/global-marketing.png" alt="">
+            <p class="p"><b>Website</b><br>www.kyumess.com</p>
+            <div class="address">
+                <img class="home" src="images/home.png" alt="">
+                <p class="p"><b>Address</b><br>Kutus-Kerugoya Rd</p>
+            </div>
+        <p class="p5">Navigate using school <br>email to gain access!</p>
+        <button type="button" id="button" onclick="">SIGNUP</button>
+    </footer>
+    <script src="signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+
+body{
+    height: 100vh;
+}
+.main{
+    display: flex;
+    gap: 10vw;
+    margin-left: 20vw;
+}
+.footer{
+    position: relative;
+    top: -50vw;
+    display: block;
+    margin-left: 10vw;
+    margin-top: 0px;
+    color: white;
+}
+.icon-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.mainDiv{
+    display: flex;
+    margin-top: 2.5vw;
+}
+.viber, .email, .web, .home{
+    margin-left: 0px;
+
+}
+.section3-img{
+    position: relative;
+    margin-left: 0;
+    top: -40vw;
+    border-radius: 30px;
+}
+
+.section2{
+    background-color: #d7ccc8;
+    width: fit-content;
+    height: fit-content;
+    min-height: fit-content;
+    min-width: fit-content;
+    padding-left: 2.5vw;
+    padding-right: 4vw;
+    padding-bottom: 1vh;
+    padding-top: 2.5vh;
+    border-radius: 2.5vw;
+    position: relative;
+    top: -50vw;
+    margin-left: 10.5vw;
+}
+.form{
+    display: flex;
+    margin-bottom: 1.5vw;
+}
+#name,#email,#subject{
+    color: white;
+    margin-top: 5vh;
+    background-color: rgb(37, 37, 37);
+    width: 12.5vw;
+    height: 7.5vh;
+    border: none;
+    border-radius: 10vw;
+    font-size: 1.0vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+.input-container,.textarea-container{
+    width: fit-content;
+    height: fit-content;
+    display: block;
+}
+.textarea-container{
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+#message{
+    padding-left: 3.5vw;
+    padding-top: 1vw;
+    width: 30vw;
+    min-width: fit-content;
+    height: 25vh;
+    min-height: fit-content;
+    border: 0.5vw solid grey;
+    border-top-left-radius: 5vw;
+    border-bottom-right-radius: 5vw;
+    background-color: transparent;
+}
+button{
+    background-color: #e08e00;
+    color: black;
+    width: 15vw;
+    height: 2.5vw;
+    min-height: fit-content;
+    min-width: fit-content;
+    margin-top: 0.5vw;
+    margin-left: 10vw;
+}
+@media (max-width: 768px) {
+    .section2{
+        position: relative;
+        top: -90vw;
+    }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - BeBlog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">BeBlog</div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Web design</a>
+            <a href="#">WordPress</a>
+            <a href="#">About us</a>
+            <a href="#">BeAdvice</a>
+            <a href="#">Check Be</a>
+        </div>
+    </nav>
+
+    <div class="header">
+        <div class="overlay">
+            <h1>Welcome to Our Cafe</h1>
+        </div>
+    </div>
+
+    <section class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Cappuccino</h3>
+                <p>$4.99</p>
+                <button onclick="addToCart('Cappuccino', 4.99)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <h3>Latte</h3>
+                <p>$3.99</p>
+                <button onclick="addToCart('Latte', 3.99)">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <h3>Espresso</h3>
+                <p>$2.99</p>
+                <button onclick="addToCart('Espresso', 2.99)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="payment-section">
+        <h2>Payment Options</h2>
+        <div class="payment-options">
+            <div class="payment-option" onclick="processPayment('Credit Card')">Credit Card</div>
+            <div class="payment-option" onclick="processPayment('PayPal')">PayPal</div>
+            <div class="payment-option" onclick="processPayment('Cash')">Cash</div>
+        </div>
+    </section>
+
+    <script>
+        let cart = [];
+
+        function addToCart(item, price) {
+            cart.push({ item, price });
+            alert(`${item} added to cart! Total: $${cart.reduce((sum, item) => sum + item.price, 0).toFixed(2)}`);
+        }
+
+        function processPayment(method) {
+            if (cart.length === 0) {
+                alert('Please add items to your cart first!');
+                return;
+            }
+            alert(`Payment processed using ${method}! Total: $${cart.reduce((sum, item) => sum + item.price, 0).toFixed(2)}`);
+            cart = [sum];
+        }
+    </script>
+</body>
+</html>
